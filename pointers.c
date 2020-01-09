@@ -48,4 +48,10 @@ float* ptrtoe;
   printf("The value of ptrtoe is %f\n", ptrtoe);
   printf("It stores the value %f\n", *ptrtoe);
   printf("The address of e is %f\n", &e); 
+
+float tmp = e;
+  e = d;
+  d = tmp;
+    printf("New d: %f\n", d);
+    printf("New e: %f\n", e);
 }
